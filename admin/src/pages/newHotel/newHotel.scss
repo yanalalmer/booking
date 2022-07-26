@@ -32,18 +32,17 @@
 
       .right {
         flex: 2;
-        padding: 0px 20px;
 
         form {
           display: flex;
           flex-wrap: wrap;
           gap: 30px;
-          justify-content: space-between;
+          justify-content: space-around;
 
-          .selectRooms{
+          .selectRooms {
             width: 100%;
 
-            select{
+            select {
               width: 100%;
               padding: 10px;
             }
